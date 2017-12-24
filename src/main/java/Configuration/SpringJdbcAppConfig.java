@@ -28,7 +28,6 @@ public class SpringJdbcAppConfig {
         dataSource.setUsername("root");
         dataSource.setInitialSize(1);
         dataSource.setMaxTotal(5);
-
         return dataSource;
 
     }

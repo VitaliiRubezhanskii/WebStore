@@ -24,8 +24,8 @@
 hs_err_pid*
 
 .gitignore
-.idea/
+.idea
 DatabaseLesson.iml
-pom.xml
-src/
+
+
 target/

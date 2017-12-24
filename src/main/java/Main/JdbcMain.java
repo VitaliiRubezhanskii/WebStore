@@ -1,4 +1,4 @@
-/*package Main;
+package Main;
 
 import Configuration.*;
 import beans.*;
@@ -14,8 +14,8 @@ public class JdbcMain {
         ApplicationContext context=new AnnotationConfigApplicationContext(JdbcAppConfig.class);
         jdbcDAO jdbcdao=(jdbcDAO)context.getBean(jdbcDAO.class);
 
-      //  City city1=new City(8009,"Kharkiv","Kharkovskaya",487598);
-        //City city2=new City(8009,"Kiev","Kievskaya",3252654);
+        City city1=new City(8009,"Kharkiv","17845","Kharkovskaya",487598);
+        City city2=new City(8009,"Kiev","614859","Kievskaya",3252654);
 
        System.out.println("------Inserting Kharkiv into database-------");
         jdbcdao.insert(city1);
@@ -37,4 +37,3 @@ public class JdbcMain {
     }
 
 
-*/

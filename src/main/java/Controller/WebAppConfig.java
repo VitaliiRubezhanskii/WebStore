@@ -1,4 +1,4 @@
-package beans.Controller;
+package Controller;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;

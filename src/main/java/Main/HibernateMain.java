@@ -1,10 +1,8 @@
 package Main;
 import Configuration.Configurator;
 import beans.*;
-import java.util.List;
-import beans.HibernateUtils.HibernateDAO;
+import Database.HibernateRepository.HibernateDAO;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class HibernateMain {

@@ -1,4 +1,4 @@
-package beans.SpringJDBCUtils;
+package Database.Spring_JDBC;
 import beans.City;
 import java.util.List;
 public interface SpringjdbcDAO {

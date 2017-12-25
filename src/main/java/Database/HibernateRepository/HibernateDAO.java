@@ -1,4 +1,4 @@
-package beans.HibernateUtils;
+package Database.HibernateRepository;
 import beans.*;
 import java.util.List;
 

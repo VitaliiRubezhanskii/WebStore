@@ -2,7 +2,7 @@
     import javax.persistence.*;
     @Entity
     @Table(name = "country")
-        public class Country extends AbstractWorld {
+        public class Country {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
 

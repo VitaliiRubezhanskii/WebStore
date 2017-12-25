@@ -1,4 +1,4 @@
-package beans.PlainJdbc;
+package Database.JDBC;
 
 import beans.Country;
 

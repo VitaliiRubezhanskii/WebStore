@@ -1,4 +1,4 @@
-package beans.SpringJDBCUtils;
+package Database.Spring_JDBC;
 import beans.City;
 import org.springframework.jdbc.core.*;
 import java.sql.*;

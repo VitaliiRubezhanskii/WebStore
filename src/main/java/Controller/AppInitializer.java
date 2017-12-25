@@ -1,4 +1,4 @@
-package beans.Controller;
+package Controller;
 
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;

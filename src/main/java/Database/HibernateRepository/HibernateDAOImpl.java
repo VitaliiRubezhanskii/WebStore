@@ -1,11 +1,10 @@
-package beans.HibernateUtils;
+package Database.HibernateRepository;
 import beans.*;
 import java.util.List;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.*;
-import org.hibernate.cfg.Configuration;
 
 public class HibernateDAOImpl implements HibernateDAO {
 

@@ -1,8 +1,8 @@
 package Configuration;
 
 //import org.apache.commons.dbcp.BasicDataSource;
-import beans.SpringJDBCUtils.SpringDAOImpl;
-import beans.SpringJDBCUtils.SpringjdbcDAO;
+import Database.Spring_JDBC.SpringDAOImpl;
+import Database.Spring_JDBC.SpringjdbcDAO;
 import org.apache.commons.dbcp2.BasicDataSource;
 import com.mysql.jdbc.Driver;
 import org.springframework.context.annotation.Bean;

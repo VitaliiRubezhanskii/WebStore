@@ -1,6 +1,5 @@
-package beans.PlainJdbcUtils;
+package Database.JDBC;
 import beans.City;
-import beans.PlainJdbc.CityRepository;
 
 import java.sql.*;
 import java.util.ArrayList;

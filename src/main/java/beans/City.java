@@ -1,11 +1,9 @@
 package beans;
 import javax.persistence.*;
-import  org.hibernate.*;
-import java.util.Set;
 
-    @Entity
+@Entity
     @Table(name = "City")
-        public class City extends AbstractWorld {
+        public class City {
     @Id
 
     //@GeneratedValue(strategy = GenerationType.AUTO)

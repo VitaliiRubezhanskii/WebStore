@@ -1,8 +1,8 @@
-package Main;
+/*package Main;
 
 import Configuration.*;
 import beans.*;
-import beans.PlainJdbcUtils.*;
+
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.ApplicationContext;
 
@@ -34,6 +34,6 @@ public class JdbcMain {
     City newCity= jdbcdao.findCityById(8009);
         System.out.println(newCity.toString());
         }
-    }
+    }*/
 
 

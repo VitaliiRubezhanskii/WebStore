@@ -3,7 +3,7 @@ package Main;
 import Configuration.SpringJdbcAppConfig;
 import beans.City;
 
-import beans.SpringJDBCUtils.SpringjdbcDAO;
+import Database.Spring_JDBC.SpringjdbcDAO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

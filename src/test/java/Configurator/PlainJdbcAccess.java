@@ -1,6 +1,5 @@
 
-package beans.PlainJdbc;
-import beans.AbstractWorld;
+/*package Configurator;
 import beans.City;
 import beans.Country;
 import beans.CountryLanguage;
@@ -98,7 +97,7 @@ public class PlainJdbcAccess {
     }
     /*public AbstractWorld getAbstractWorlUnitdById(int id){
 
-    }*/
+
 
     PlainJdbcAccess plainJdbcAccess;
 
@@ -111,4 +110,4 @@ public class PlainJdbcAccess {
     }
 
 
-}
+}*/

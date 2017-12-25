@@ -1,5 +1,6 @@
-package Configuration;
-import beans.PlainJdbcUtils.*;
+/*package Configuration;
+
+import org.springframework.context.annotation.Bean;
 //import org.apache.commons.dbcp.BasicDataSource;
 import org.apache.commons.dbcp2.BasicDataSource;
 import com.mysql.jdbc.Driver;
@@ -37,4 +38,4 @@ public class JdbcAppConfig {
 
 
 
-}
+}*/

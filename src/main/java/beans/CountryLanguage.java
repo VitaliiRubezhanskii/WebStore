@@ -3,7 +3,7 @@ package beans;
 
     @Entity
     @Table(name = "countrylanguage")
-        public class CountryLanguage extends  AbstractWorld {
+        public class CountryLanguage {
     @Id
         private String language;
 

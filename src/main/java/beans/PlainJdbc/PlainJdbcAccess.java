@@ -58,6 +58,7 @@ public class PlainJdbcAccess {
 
     }
 
+
     public List<AbstractWorld> getAbstractWorldUnits(){
 
         AbstractWorld abstractWorld=new City();
@@ -68,13 +69,14 @@ public class PlainJdbcAccess {
         String sql="select * FROM city";
 
         List<AbstractWorld> abstractWorldList=new ArrayList<AbstractWorld>();
-        try{
-          connection= connect();
-          statement=connection.createStatement();
-          resultSet=statement.executeQuery(sql);
 
-            while (resultSet.next()){
-                City city=new City();
+        try {
+            connection = connect();
+            statement = connection.createStatement();
+            resultSet = statement.executeQuery(sql);
+
+            while (resultSet.next()) {
+                City city = new City();
                 city.setId(resultSet.getInt(1));
                 city.setName(resultSet.getString(2));
                 city.setCountryCode(resultSet.getString(3));
@@ -102,7 +104,7 @@ public class PlainJdbcAccess {
 
     public static void main(String[] args) {
 
-        PlainJdbcAccess plainJdbcAccess;
+        PlainJdbcAccess plainJdbcAccess=new PlainJdbcAccess();
 
         plainJdbcAccess.getAbstractWorldUnits();
 

@@ -33,7 +33,7 @@ import java.util.Set;
             this.name = name;
             this.countryCode=countryCode;
             this.district = district;
-            this.district = district;
+            this.population=population;
         }
 
         public int getId(){return id;}

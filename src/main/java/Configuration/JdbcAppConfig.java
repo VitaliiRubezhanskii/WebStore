@@ -1,5 +1,5 @@
 package Configuration;
-import beans.JDBCUtils.*;
+import beans.PlainJdbcUtils.*;
 //import org.apache.commons.dbcp.BasicDataSource;
 import org.apache.commons.dbcp2.BasicDataSource;
 import com.mysql.jdbc.Driver;

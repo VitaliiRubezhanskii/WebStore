@@ -2,7 +2,7 @@ package Main;
 
 import Configuration.*;
 import beans.*;
-import beans.JDBCUtils.*;
+import beans.PlainJdbcUtils.*;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.ApplicationContext;
 

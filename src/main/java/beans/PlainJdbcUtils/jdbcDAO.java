@@ -1,4 +1,4 @@
-package beans.JDBCUtils;
+package beans.PlainJdbcUtils;
 
 import beans.City;
 //import org.springframework.data.repository.CrudRepository;

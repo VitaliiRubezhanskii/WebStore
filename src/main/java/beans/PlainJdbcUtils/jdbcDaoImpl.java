@@ -1,4 +1,4 @@
-package beans.JDBCUtils;
+package beans.PlainJdbcUtils;
 
 import beans.City;
 
@@ -141,5 +141,13 @@ public class jdbcDaoImpl implements jdbcDAO {
 
             }
         }
+    }
+
+    public static void main(String[] args) {
+
+        ;
+
+        City city =new City(8000,"Zhytomyr","61000","Ukr",258789 );
+
     }
 }

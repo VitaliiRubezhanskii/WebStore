@@ -7,6 +7,7 @@ import java.util.Set;
     @Table(name = "City")
         public class City extends AbstractWorld {
     @Id
+
     //@GeneratedValue(strategy = GenerationType.AUTO)
         private int id;
     @Column(name="Name")
@@ -21,15 +22,18 @@ import java.util.Set;
     @Column(name = "Population")
         private Integer population;
 
+
+
         public City() {
         }
+
 
         public City(Integer id,String name,String countryCode, String district, Integer population) {
             this.id=id;
             this.name = name;
             this.countryCode=countryCode;
             this.district = district;
-            this.population = population;
+            this.district = district;
         }
 
         public int getId(){return id;}

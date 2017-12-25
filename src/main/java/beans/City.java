@@ -2,11 +2,12 @@ package beans;
 import javax.persistence.*;
 
 @Entity
-    @Table(name = "City")
+    @Table(name = "city")
         public class City {
-    @Id
 
-    //@GeneratedValue(strategy = GenerationType.AUTO)
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name="ID")
         private int id;
     @Column(name="Name")
         private String name;
